@@ -1,1 +1,1 @@
-a
+This file includes a series of Stratospheric mechanisms complete with species, reactions, initial conditions, photolysis rates, and evolving conditions. Each file has the mechanism type (eg. Chapman_BrOx) followed by the altitude (eg. 30km). Each file will contain a zip file that can be downloaded to your computer to be used in MusicBox. Each zip file should contain a config.json, reactions.json, species.json, and tolerance.json.
