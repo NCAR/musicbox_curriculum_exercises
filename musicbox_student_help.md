@@ -2,6 +2,7 @@
 # Summary: #
 Install Docker https://www.docker.com
 Follow the  instructions to install and run (interactive version) of Music Box https://github.com/NCAR/music-box
+Admin rights must be assigned to the user of the computer in order to download Docker.
 Detailed instructions, exceptional cases, and extended usage follow.
 
 
