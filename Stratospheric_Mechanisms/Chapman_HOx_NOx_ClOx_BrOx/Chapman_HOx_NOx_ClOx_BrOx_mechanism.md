@@ -1,1 +1,0 @@
-The Simple Chapman Mechanism includes a series of Ox, HOx, NOx, ClOx, and BrOx reactions for the Chapman Mechanism. This mechanism includes all of the reactions that are included in the Full Chapman Mechanism. Select the file based on desired altitude above sea level (20, 30, 40, 50km).
