@@ -1,0 +1,51 @@
+{
+    "box model options": {
+        "grid": "box",
+        "chemistry time step [min]": 5.0,
+        "output time step [min]": 5.0,
+        "simulation length [day]": 5.0
+    },
+    "chemical species": {
+        "N2": {
+            "initial value [mol m-3]": "1.10E-01"
+        },
+        "O2": {
+            "initial value [mol m-3]": "2.94E-02"
+        },
+        "O3": {
+            "initial value [mol m-3]": "8.95E-07"
+        },
+        "O": {
+            "initial value [mol m-3]": "1.05E-09"
+        },
+        "O1D": {
+            "initial value [mol m-3]": "2.80E-16"
+        }
+    },
+    "environmental conditions": {
+        "temperature": {
+            "initial value [K]": 252.7612
+        },
+        "pressure": {
+            "initial value [Pa]": 294.8321053
+        }
+    },
+    "evolving conditions": {
+        "Strat_40km_evolving_simplified.csv": {
+        }
+    },
+    "model components": [
+        {
+            "type": "CAMP",
+            "configuration file": "camp_data/config.json",
+            "override species": {
+                "M": {
+                    "mixing ratio mol mol-1": 1.0
+                }
+            },
+            "suppress output": {
+                "M": {}
+            }
+        }
+    ]
+}

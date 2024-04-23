@@ -1,0 +1,207 @@
+{
+    "box model options": {
+        "grid": "box",
+        "chemistry time step [min]": 5.0,
+        "output time step [min]": 5.0,
+        "simulation length [day]": 5.0
+    },
+    "chemical species": {
+        "BR": {
+            "initial value [mol m-3]": "1.07E-12"
+        },
+        "BRCL": {
+            "initial value [mol m-3]": "3.31E-14"
+        },
+        "BRO": {
+            "initial value [mol m-3]": "1.77E-11"
+        },
+        "BRONO2": {
+            "initial value [mol m-3]": "1.01E-11"
+        },
+        "CCL4": {
+            "initial value [mol m-3]": "1.52E-10"
+        },
+        "CF2CLBR": {
+            "initial value [mol m-3]": "4.50E-12"
+        },
+        "CF3BR": {
+            "initial value [mol m-3]": "7.90E-12"
+        },
+        "CFC11": {
+            "initial value [mol m-3]": "4.83E-10"
+        },
+        "CFC113": {
+            "initial value [mol m-3]": "1.84E-10"
+        },
+        "CFC114": {
+            "initial value [mol m-3]": "4.51E-11"
+        },
+        "CFC115": {
+            "initial value [mol m-3]": "2.44E-11"
+        },
+        "CFC12": {
+            "initial value [mol m-3]": "1.34E-09"
+        },
+        "CH2BR2": {
+            "initial value [mol m-3]": "5.17E-13"
+        },
+        "CH2O": {
+            "initial value [mol m-3]": "4.83E-11"
+        },
+        "CH3BR": {
+            "initial value [mol m-3]": "1.12E-11"
+        },
+        "CH3CCL3": {
+            "initial value [mol m-3]": "7.95E-12"
+        },
+        "CH3CL": {
+            "initial value [mol m-3]": "1.22E-09"
+        },
+        "CH3O2": {
+            "initial value [mol m-3]": "5.64E-13"
+        },
+        "CH3OOH": {
+            "initial value [mol m-3]": "4.72E-12"
+        },
+        "CH4": {
+            "initial value [mol m-3]": "4.80E-06"
+        },
+        "CHBR3": {
+            "initial value [mol m-3]": "1.75E-17"
+        },
+        "CL": {
+            "initial value [mol m-3]": "2.21E-14"
+        },
+        "CL2": {
+            "initial value [mol m-3]": "1.24E-14"
+        },
+        "CL2O2": {
+            "initial value [mol m-3]": "2.05E-14"
+        },
+        "CLO": {
+            "initial value [mol m-3]": "2.86E-11"
+        },
+        "CLONO2": {
+            "initial value [mol m-3]": "2.53E-10"
+        },
+        "CO": {
+            "initial value [mol m-3]": "4.73E-08"
+        },
+        "CO2": {
+            "initial value [mol m-3]": "1.17E-03"
+        },
+        "H": {
+            "initial value [mol m-3]": "3.14E-19"
+        },
+        "H2": {
+            "initial value [mol m-3]": "1.54E-06"
+        },
+        "H2402": {
+            "initial value [mol m-3]": "5.99E-13"
+        },
+        "H2O": {
+            "initial value [mol m-3]": "1.19E-05"
+        },
+        "H2O2": {
+            "initial value [mol m-3]": "3.85E-11"
+        },
+        "HBR": {
+            "initial value [mol m-3]": "1.10E-12"
+        },
+        "HCFC141B": {
+            "initial value [mol m-3]": "6.16E-11"
+        },
+        "HCFC142B": {
+            "initial value [mol m-3]": "7.19E-11"
+        },
+        "HCFC22": {
+            "initial value [mol m-3]": "7.23E-10"
+        },
+        "HCL": {
+            "initial value [mol m-3]": "1.40E-09"
+        },
+        "HNO3": {
+            "initial value [mol m-3]": "5.12E-09"
+        },
+        "HO2": {
+            "initial value [mol m-3]": "1.13E-11"
+        },
+        "HO2NO2": {
+            "initial value [mol m-3]": "1.55E-10"
+        },
+        "HOBR": {
+            "initial value [mol m-3]": "1.55E-12"
+        },
+        "HOCL": {
+            "initial value [mol m-3]": "6.51E-12"
+        },
+        "N": {
+            "initial value [mol m-3]": "3.08E-18"
+        },
+        "N2": {
+            "initial value [mol m-3]": "2.28"
+        },
+        "N2D": {
+            "initial value [mol m-3]": "6.60E-25"
+        },
+        "N2O": {
+            "initial value [mol m-3]": "8.71E-07"
+        },
+        "N2O5": {
+            "initial value [mol m-3]": "1.46E-10"
+        },
+        "NO": {
+            "initial value [mol m-3]": "1.44E-09"
+        },
+        "NO2": {
+            "initial value [mol m-3]": "1.07E-09"
+        },
+        "NO3": {
+            "initial value [mol m-3]": "1.11E-13"
+        },
+        "O": {
+            "initial value [mol m-3]": "3.33E-12"
+        },
+        "O1D": {
+            "initial value [mol m-3]": "1.82E-18"
+        },
+        "O2": {
+            "initial value [mol m-3]": "6.13E-01"
+        },
+        "O3": {
+            "initial value [mol m-3]": "5.35E-06"
+        },
+        "OCLO": {
+            "initial value [mol m-3]": "3.87E-14"
+        },
+        "OH": {
+            "initial value [mol m-3]": "2.08E-12"
+        }
+    },
+    "environmental conditions": {
+        "temperature": {
+            "initial value [K]": 213.8966
+        },
+        "pressure": {
+            "initial value [Pa]": 5201.590993
+        }
+    },
+    "evolving conditions": {
+        "Strat_20km_evolving.csv": {
+        }
+    },
+    "model components": [
+        {
+            "type": "CAMP",
+            "configuration file": "camp_data/config.json",
+            "override species": {
+                "M": {
+                    "mixing ratio mol mol-1": 1.0
+                }
+            },
+            "suppress output": {
+                "M": {}
+            }
+        }
+    ]
+}
