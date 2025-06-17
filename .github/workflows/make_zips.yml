@@ -1,0 +1,41 @@
+name: Zip and Overwrite in Repo
+
+on:
+  workflow_dispatch:
+
+jobs:
+  zip:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout with write access
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@github.com"
+
+      - name: Zip directories
+        run: |
+          input_dirs=("dir1" "dir2")
+          output_names=("dir1.zip" "dir2.zip")
+
+          for i in "${!input_dirs[@]}"; do
+            dir="${input_dirs[$i]}"
+            zipfile="${output_names[$i]}"
+            echo "Zipping $dir to $zipfile"
+            zip -r "$zipfile" "$dir"
+          done
+
+      - name: Commit updated zip files
+        run: |
+          git add *.zip
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update zip files from GitHub Actions"
+            git push
+          fi
