@@ -1,4 +1,4 @@
-name: Zip and Overwrite in Repo
+name: Zip and Overwrite archives in the repository
 
 on:
   workflow_dispatch:
