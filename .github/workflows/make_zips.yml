@@ -2,6 +2,9 @@ name: Zip and Overwrite archives in the repository
 
 on:
   workflow_dispatch:
+  push:
+      branches:
+          - main
 
 jobs:
   zip:
