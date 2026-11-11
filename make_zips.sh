@@ -24,7 +24,7 @@
             zipfile="${output_names[$i]}"
             pushd "$dir"
             echo "Zipping $dir to $zipfile"
-            zip -r "$zipfile" . -x "*.zip"
+            zip -r -FS "$zipfile" . -x "*.zip" -x "*.DS_Store"
             popd
           done
 
